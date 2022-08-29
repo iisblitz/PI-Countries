@@ -1,0 +1,212 @@
+
+
+
+.H-title{
+    color: yellow;
+    top: 2%;
+    size: 200px;
+}
+.container {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.app-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 10px;
+
+}
+
+.grid {
+ display: grid;
+ grid-template-columns: repeat(5, minmax(0,9fr));
+ gap: 20px 10px;
+
+}
+
+.barr{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barr1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barr2 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    color: black;
+    border-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    font-size: 20px;
+    background-color: yellow ;
+    box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
+}
+.barr3{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+.container h1{
+    padding-left: 7px;
+
+
+    
+}
+
+.barr img{
+    position: inherit;
+    transform: translate(10%, -15%);
+    
+}
+.barr h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: bold;
+    transform: translate(-5%, -5%);
+    font-size: 70px;
+    color: yellow;
+    text-shadow: 0 9px 16px #000;
+    
+}
+
+
+.forma{
+    position:absolute;
+    bottom: 20px;
+    display: flex;
+    transform: translate(3%, -10%);
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 15px;
+    height: 120px;
+         
+}
+.bloq1{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    margin-top: 5px;
+}
+
+.bloq1 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font: bold;
+
+    
+}
+
+.bloq1 img{
+width: 90px;
+}
+.suramerica img{
+    height: 100px;
+}
+
+.actividad{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.actividad div{
+    padding-left: 15px;
+
+}
+
+.encabe{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #000000;
+    padding: 5px;
+    box-shadow: 0 1px 15px #011734c4;
+    height: 100px;
+
+}
+
+.ordenar select{
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+    border-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    background-color: yellow ;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
+}
+
+.ordenar option{
+    align-items: center;
+    background-color:  yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black ;
+    font-size: 15px;
+}
+
+
+.filtro-act select{
+    width: 110px;
+    height: 30px;
+    display:flex;
+    border-radius: 10px;
+    color: black;
+    border-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    background-color: yellow ;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
+}
+.filtro-act option{
+    align-items: center;
+    background-color:  yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+.crear {
+text-align: center;
+padding: 5px;
+background-color: yellow;
+border-color: orange;
+color:black;
+border-radius:5px ;
+}
+

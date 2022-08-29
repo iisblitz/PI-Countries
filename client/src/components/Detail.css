@@ -1,0 +1,118 @@
+.gif {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.detalle{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color : white;
+    background-color: black;
+    
+   
+   
+
+}
+.detalle2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgba(240, 248, 255, 0.443);
+    box-shadow: 0 9px 15px rgba(0, 0, 0, 0.598);
+    
+    
+    
+   
+} 
+
+
+.pais{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ align-items: column;
+ padding: 20px;
+ margin: 10px;
+ 
+}
+.pais img{
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.598);  
+    
+   }
+
+.detail{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+
+}
+.detail h1{
+    padding-bottom: 30px;
+    
+    
+}
+
+.bar{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    color: yellow;
+    background-color: black;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.card-g1 {
+    width: 200px;
+    height: 100px;
+}
+.body1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.443);
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-shadow: 0 9px 15px rgba(0, 0, 0, 0.598);
+    
+}
+
+.card-g1 .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: .5s ;
+    }
+
+    .card-g .front{
+        transform: perspective(600px) rotateY(0deg);
+        box-shadow: 0 9px 15px rgba(0, 0, 0, 0.598);
+    }
+
+    
+    .card-atv{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    

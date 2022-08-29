@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53effd29.chunk.css",
+    "main.js": "/static/js/main.0df5add0.chunk.js",
+    "main.js.map": "/static/js/main.0df5add0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c36773e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c36773e7.js.map",
+    "static/js/2.b9f32caf.chunk.js": "/static/js/2.b9f32caf.chunk.js",
+    "static/js/2.b9f32caf.chunk.js.map": "/static/js/2.b9f32caf.chunk.js.map",
+    "static/js/3.7ae53b7e.chunk.js": "/static/js/3.7ae53b7e.chunk.js",
+    "static/js/3.7ae53b7e.chunk.js.map": "/static/js/3.7ae53b7e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.53effd29.chunk.css.map": "/static/css/main.53effd29.chunk.css.map",
+    "static/js/2.b9f32caf.chunk.js.LICENSE.txt": "/static/js/2.b9f32caf.chunk.js.LICENSE.txt",
+    "static/media/Asia.bd220122.png": "/static/media/Asia.bd220122.png",
+    "static/media/countries.83937226.png": "/static/media/countries.83937226.png",
+    "static/media/europa.f9ab7351.png": "/static/media/europa.f9ab7351.png",
+    "static/media/mundo.19de39f7.png": "/static/media/mundo.19de39f7.png",
+    "static/media/norteamerica.1f92b06c.png": "/static/media/norteamerica.1f92b06c.png",
+    "static/media/suramerica.13c1b71a.png": "/static/media/suramerica.13c1b71a.png",
+    "static/media/travellingTheWorld.12ce6ca5.gif": "/static/media/travellingTheWorld.12ce6ca5.gif",
+    "static/media/viaje.1cb5cf57.gif": "/static/media/viaje.1cb5cf57.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c36773e7.js",
+    "static/js/2.b9f32caf.chunk.js",
+    "static/css/main.53effd29.chunk.css",
+    "static/js/main.0df5add0.chunk.js"
+  ]
+}

@@ -1,0 +1,36 @@
+
+.containerr {
+    display: flex;
+    align-items: center;
+    
+}
+
+.containerr input{
+ width: 200px;  
+ height: 30px;
+ border-bottom-left-radius: 10px;
+ border-top-left-radius: 10px;
+ box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
+
+}
+
+
+
+
+
+.btnn button {
+    width: 60px;
+    height: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+    border-color: #f8b021;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font: bold;
+    background-color: yellow ;
+    font-size: 18px;
+    box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
+    
+}
+
+
