@@ -7,7 +7,7 @@ export default function LandingPage(){
     return(
         <header  >
         <div className='texto' >
-            <h1 class="title">Countries</h1>
+            <h1 class="title">Henry Countries</h1>
             <p class="sub-title">Proyecto Individual</p>
             <img class="logo" src={henry} alt="Henry"/>
 

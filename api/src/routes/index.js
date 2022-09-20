@@ -11,25 +11,31 @@ const router = Router();
 // Ejemplo: router.use('/auth', authRouter);
 
 const getApiInfo = async() => {
-    const apiUrl = await axios.get("https://restcountries.com/v3/all")
-    const apiInfo = await apiUrl.data.map(el => {
-            return {
-            id: el.cca3,
-            name: el.name.common,
-            img: el.flags[1],
-            continents: el.continents[0],
-            capital : ( el.capital || []).length === 0 ? "No tiene capital" : el.capital[0] ,
-            subregion: el.subregion,     
-            area: el.area,
-            population: el.population,
-            borders: el.borders? el.borders.map(border=> {return border}) : "No tiene capital", 
-            
-        };
-}); 
-
-    return apiInfo;
+    try {
+        const apiUrl = await axios.get("https://restcountries.com/v3/all")
+        const apiInfo = await apiUrl.data.map(el => {
+                return {
+                
+                    id: el.cca3,
+                name: el.name.common,
+                img: el.flags[1],
+                continents: el.continents[0],
+                capital : ( el.capital || []).length === 0 ? "No tiene capital" : el.capital[0] ,
+                subregion: el.subregion,     
+                area: el.area,
+                population: el.population,
+                borders: el.borders? el.borders.map(border=> {return border}) : "No tiene capital",
+                fifa: el.fifa
+                
+            };
+    }); 
     
-};
+        return apiInfo;  
+    }
+    catch (error) {
+        res.status(404).send('Error');  
+    }
+}
 const getDbInfo = async () => {
     return await Countries.findAll({
       includes: Activities,
@@ -58,7 +64,6 @@ router.get('/countries/:id', async (req, res)=>{
     if (id) {
         let countriesId = await countriesTotal.filter ( el => el.id.toLowerCase()===(id.toLowerCase()))
         countriesId.length ?
-
         res.status(200).json(countriesId) :
         res.status(404).send('No existe ese Pais');
 
@@ -92,6 +97,15 @@ router.get('/countries', async (req, res)=> { //query
         return res.status(200).json(allCountries)
   
 })
+
+router.delete('/countries',async(req,res)=>{
+    let delCountry = req.query.id
+    let response = allCountries.filter(!delCountry)
+    return response != allCountries?
+    res.status(200).send(response):
+    res.status(400).send(error)
+})
+
 
 router.post('/activities', async (req, res) =>{
     const {

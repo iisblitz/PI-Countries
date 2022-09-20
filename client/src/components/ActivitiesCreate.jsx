@@ -66,7 +66,7 @@ export default function ActivitiesCreate(){
     }
     function handleSelec(el){
         const country = countries.find(c=>c.id === el.target.value)
-          setInput({
+        setInput({
             ...input,
             countriesId: [...input.countriesId,country]
         })
@@ -204,7 +204,6 @@ export default function ActivitiesCreate(){
                 <select onChange={(el)=>handleSelec(el)}required>
                 <option value = '' > Destiny...</option>
                     {countries.map((count)=>(
-                        
                         <option value={count.id}>{count.name}</option>
                     ))}
                 </select>

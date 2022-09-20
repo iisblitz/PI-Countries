@@ -46,6 +46,7 @@ export default function Detail (){
                         <h2>Area: {numberWithDot(myCountry.area)} km²</h2>
                         <h2>Population: {numberWithDot(myCountry.population)} hab </h2>
                         <h2>Borders: {myCountry.borders} </h2>
+                        <h2>fifa: {myCountry.fifa}</h2>
                         </div>
                 </div>
 
